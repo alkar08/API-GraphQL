@@ -2,8 +2,8 @@ const Sequelize = require('sequelize')
 
 var db = {}
 
-const sequelize = new Sequelize('configuracion', 'DataUser', 'Admin2022d4t4*', {
-    host: '10.0.0.194',
+const sequelize = new Sequelize('tiendapr_datarus', 'tiendapr_user_datarus', 'datarus*2022', {
+    host: 'www.tiendaprice.com',
     port: '3306',
     dialect: 'mysql',
     define: {
