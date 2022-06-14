@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 import { ApolloServer } from 'apollo-server-express'
 const cors = require('cors')
 const app = express()
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())
 
